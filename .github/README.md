@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-launch-wizard`](https://www.npmjs.com/package/@aws-sdk/client-launch-wizard/v/3.489.0).
+[`@aws-sdk/client-launch-wizard`](https://www.npmjs.com/package/@aws-sdk/client-launch-wizard/v/3.490.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-launch-wizard@3.489.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-launch-wizard@3.490.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-p6NCDoN8vkXqt0L0Ws1+Ui9oUZuES0E1gFTa23Wyi2THtejkisOxaHNAM4yhgBK/
+sha384-kX9iGNRyYTHRZWBTFr25azobSt3DRFluzU8606uJVSN8ayxy7i6PeK2RsO/4mUvl
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-launch-wizard": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-launch-wizard@3.489.0/index.min.mjs"
+            "@aws-sdk/client-launch-wizard": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-launch-wizard@3.490.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-launch-wizard@3.489.0/index.min.mjs": "sha384-p6NCDoN8vkXqt0L0Ws1+Ui9oUZuES0E1gFTa23Wyi2THtejkisOxaHNAM4yhgBK/"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-launch-wizard@3.490.0/index.min.mjs": "sha384-kX9iGNRyYTHRZWBTFr25azobSt3DRFluzU8606uJVSN8ayxy7i6PeK2RsO/4mUvl"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-launch-wizard": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-launch-wizard@3.489.0/index.min.mjs"
+                        "@aws-sdk/client-launch-wizard": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-launch-wizard@3.490.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-launch-wizard@3.489.0/index.min.mjs": "sha384-p6NCDoN8vkXqt0L0Ws1+Ui9oUZuES0E1gFTa23Wyi2THtejkisOxaHNAM4yhgBK/"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-launch-wizard@3.490.0/index.min.mjs": "sha384-kX9iGNRyYTHRZWBTFr25azobSt3DRFluzU8606uJVSN8ayxy7i6PeK2RsO/4mUvl"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.489.0`)
+* Always pin to a specific version (`@3.490.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-launch-wizard/blob/refs/tags/3.489.0/LICENSE
+https://github.com/cloud-sdk-builds/client-launch-wizard/blob/refs/tags/3.490.0/LICENSE
 ```
 
 ---
